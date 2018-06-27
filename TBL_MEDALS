@@ -1,0 +1,5 @@
+CREATE TABLE `TBL_MEDALS` (
+	`country_code`	TEXT,
+	`medal_type`	TEXT,
+	`medal_count`	INTEGER
+);
