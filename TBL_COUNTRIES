@@ -1,0 +1,4 @@
+CREATE TABLE `TBL_COUNTRIES` (
+	`country_code`	TEXT,
+	`country_name`	TEXT
+);
