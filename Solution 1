@@ -1,0 +1,5 @@
+SELECT TBL_COUNTRIES.country_name, SUM(TBL_MEDALS.medal_count)
+FROM TBL_COUNTRIES
+JOIN TBL_MEDALS ON TBL_COUNTRIES.country_code = TBL_MEDALS.country_code
+GROUP BY TBL_COUNTRIES.country_name
+ORDER BY TBL_COUNTRIES.country_name asc;
